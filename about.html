@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(8, 14, 36);
+    animation: showRight 1s ease forwards;
+    animation-delay: .5s;
+    z-index: 2;
+}
+        section{
+            margin: 25px;
+            padding-top: 60px ;
+            font-size: 30PX;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">PORTFOLIO.</a>
+        <nav class="navbar">
+            <a href="portfolio.html">HOME</a>
+            <a href="about.html" class="active">ABOUT</a>
+            <a href="edu.html">EDUCATION</a>
+            <a href="skill.html">SKILLS</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <section>
+        <p>
+            Hello!, My name is Aditya Gautam ,I hail from Kanker-Kheda Meerut, I pursuing my BCA from Meerut Institue Of Technology (PC), 
+            I complted my 10th from CBSE board on 2020 and I completed my 12th from CBSE board on 2022, My short term goal is to master 
+            the hard skills and get placement. and my long term goal is to gain knowledge and experience to rise my career.
+        </p>
+    </section>
+</body>
+</html>
